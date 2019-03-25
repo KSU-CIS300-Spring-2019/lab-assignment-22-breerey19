@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Trie.cs" />
+    <Compile Include="TrieWithOneChild.cs" />
+    <Compile Include="ITrie.cs" />
+    <Compile Include="TrieWithManyChildren.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
